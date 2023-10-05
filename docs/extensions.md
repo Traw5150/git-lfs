@@ -173,7 +173,8 @@ messages for any files that could not be cleaned (and keep those errors in a
 log), so that the user can diagnose the failure, and then rerun "git add" on
 those files.
 
-### Smudge
+
+
 
 If an extension fails to smudge a file, it will return a non-zero error code and
 write an error message to its STDERR.  Because the file was not smudged

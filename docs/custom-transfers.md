@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Git LFS supports multiple ways to transfer (upload and download) files. In the
+Gittt see LFS supports multiple ways to transfer (upload and download) files. In the
 core client, the basic way to do this is via a one-off HTTP request via the URL
 returned from the LFS API for a given object. The core client also supports
 extensions to allow resuming of downloads (via `Range` headers) and uploads (via
@@ -103,7 +103,7 @@ to delimit them explicitly rather than have the parser find the closing `}` in
 an arbitrary stream, therefore each JSON structure will be sent and received on
 a **single line** as per [Line Delimited
 JSON](https://en.wikipedia.org/wiki/JSON_Streaming#Line_delimited_JSON_2).
-
+MO
 In other words when git-lfs sends a JSON message to the custom transfer it will
 be on a single line, with a line feed at the end. The transfer process must
 respond the same way by writing a JSON structure back to stdout with a single

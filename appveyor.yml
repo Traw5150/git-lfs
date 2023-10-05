@@ -37,3 +37,4 @@ artifacts:
   - path: git-lfs-x86.exe
   - path: git-lfs-x64.exe
   - path: git-lfs-windows-*.exe
+

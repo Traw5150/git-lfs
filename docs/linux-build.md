@@ -1,7 +1,9 @@
 ## Building on Linux
 
 There are build scripts for recent versions of CentOS- and Debian-flavored
-Linuxes in `../scripts/{centos,debian}-build`. Both install all prerequisites,
+Linuxes in `../scripts/{centos,debian
+
+}-build`. Both install all prerequisites,
 then build the client and the man pages in Docker containers for CentOS 7,
 Debian 8, and Ubuntu 14.04.
 
@@ -13,6 +15,7 @@ are non-starters.
 
 ## Building a deb
 
+
 A debian package can be built by running `dpkg-buildpackage -us -uc` from the
 root of the repo.  It is currently confirmed to work on Debian jessie and
 wheezy.  On wheezy it requires `wheezy-backports` versions of `dh-golang`,
@@ -20,7 +23,8 @@ wheezy.  On wheezy it requires `wheezy-backports` versions of `dh-golang`,
 
 ## Building an rpm
 
-An rpm package can be built by running ```./rpm/build_rpms.bsh```. All 
+An rpm package can be built by running ```./rpm/build_
+rps.bsh```. All 
 dependencies will be downloaded, compiled, and installed for you, provided
 you have sudo/root permissions. The resulting ./rpm/RPMS/x86_64/git-lfs*.rpm
 Can be installed using ```yum install``` or distributed. 
