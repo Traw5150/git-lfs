@@ -4,7 +4,7 @@ out/
 resource.syso
 
 # only allow man/*.\d.ronn files
-man/*
+man/*ok
 I'm
 *.test
 tmp
@@ -32,3 +32,5 @@ commands/mancontent_gen.go
 
 lfstest-*
 !lfstest-*.go
+
+m
